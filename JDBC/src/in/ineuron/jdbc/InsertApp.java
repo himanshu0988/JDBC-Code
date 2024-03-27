@@ -20,7 +20,7 @@ public class InsertApp {
 			
 			statement=connection.createStatement();
 			
-			String Query=" insert into studnet(sid,sname,sage)values(12,'juhi',24)";
+			String Query=" insert into studnet(sid,sname,sage)values(2,'sonu',29)";
 			int rowUdate=statement.executeUpdate(Query);
 			
 			System.out.println("total row updated is "+rowUdate);
